@@ -1,0 +1,30 @@
+{
+  "name": "modxcms/installer",
+  "description": "",
+  "keywords": ["modx", "modxcms", "cms", "composer", "installer", "setup"],
+
+  "type": "modx-component",
+  "license": "GPL-2.0+",
+
+  "authors": [{
+    "name": "Ivan Klimchuk",
+    "email": "ivan@klimchuk.com",
+    "homepage": "https://klimchuk.com",
+    "role": "Developer"
+  }],
+
+  "homepage": "https://modx.com",
+  "support": {
+    "issues": "https://github.com/modxcms/revolution/issues/",
+    "source": "https://github.com/modxcms/revolution/"
+  },
+
+  "repositories": [{
+    "type": "vcs",
+    "url": "git@github.com:Alroniks/installers.git"
+  }],
+
+  "require": {
+    "composer/installers": "dev-feature/component-installer-for-modx"
+  }
+}
