@@ -19,11 +19,6 @@
     "source": "https://github.com/modxcms/revolution/"
   },
 
-  "repositories": [{
-    "type": "vcs",
-    "url": "git@github.com:Alroniks/installers.git"
-  }],
-
   "require": {
     "composer/installers": "dev-feature/component-installer-for-modx"
   }
